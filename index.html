@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -37,15 +37,8 @@
                 tenho sido uma defensora incansável dos nossos amigos peludos desde então.<br>
                 Atuo na área de clínica médica, reabilitação animal e medicina integrativa</p>
         </div>
-        <div id="slide-img">
-        <img class="img" src="./imagens/Pri01.jpeg" id="imag1" checked alt="">
-        <img class="img" src="./imagens/Pri02.jpeg" id="imag2" alt="">
-        <img class="img" src="./imagens/Pri03.jpeg" id="imag3" alt="">
-        <img class="img" src="./imagens/Pri04.jpeg" id="imag4" alt="">
-        <img class="img" src="./imagens/Pri05.jpeg" id="imag5" alt="">
-        <img class="img" src="./imagens/Pri06.jpeg" id="imag6" alt="">
-        <img class="img" src="./imagens/Pri07.jpeg" id="imag7" alt="">
-        <img class="img" src="./imagens/Pri08.jpeg" id="imag8" alt="">
+        <div>
+            <img class="img" src="./imagens/Pri01.jpeg" id="imag1">
         </div>
     </div>
     <!--FORMULÁRIO-->
@@ -54,7 +47,7 @@
         <form action="https:formsubmit.co/plimavetrj@gmail.com" method="POST"> 
         <input type="Nome" placeholder="Nome" name="Nome" required>
         <input type="Número" placeholder="Número" name="Número" required>
-        <input type="E-mail" placeholder="E-mail" name="E-mail" required>
+        <input type="E-mail" placeholder="E-mail" name="E-mail" required >
         <label for="opçoes"></label>
         <select name="Trabalho" id="opcoes">
             <option value="LASERTERAPIA">Laserterapia</option>
@@ -67,17 +60,19 @@
         </form>
     </div>
     <!--RODAPÉ-->
-    <div id="rodape">
-        <ul class="lista">
-            <a href="https://siscad.cfmv.gov.br/paginas/busca" target="_blank">CRMV-RJ 19.071</a>
-            <a href="https://wa.me/5521996723322" target="_blank">WhatsApp</a>
-            <a href="https://www.instagram.com/plimavet/" target="_blank">Instagram</a>
-        </ul>
+    <footer>
+        <div class="rodape">
+            <ul class="lista">
+                 <a href="https://siscad.cfmv.gov.br/paginas/busca" target="_blank">CRMV-RJ 19.071</a>
+                 <a href="https://wa.me/5521996723322" target="_blank">WhatsApp</a>
+                 <a href="https://www.instagram.com/plimavet/" target="_blank">Instagram</a>
+             </ul>
+        </div>
+        <div id="dev">
+            <a class="nome" href="https://www.instagram.com/we_erl.jlima/" target="_blank">Desenvolvedor Welerson Lima</a>
+        </div>
         
-        <p class="dev">
-            <a class="dev" href="https://www.instagram.com/we_erl.jlima/" target="_blank">Desenvolvedor Welerson Lima</a>
-        </p>
-    </div>
+    </footer>
     <script src="./script.js"></script>
 
 </body>
