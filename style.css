@@ -130,13 +130,6 @@ a:hover{
 }
 
 button:hover{
-    color: #faadc3;
+    color: #faadc3; ;
 }
 
-
-@media only screen and (max-width: 600px) {
-    #menuinformacional ul li {
-        
-   
-    }
-}
