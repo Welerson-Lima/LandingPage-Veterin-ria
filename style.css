@@ -136,8 +136,38 @@ button:hover{
 }
 
 @media only screen and (max-width: 600px) {
-    {
-       
-  
+   ul, li{
+        display: flex;
+        flex-direction: column;
+        padding-left: 65px;
    }
+   
+   
+    h1, .texto{
+       text-align: center;
+       font-size: 18px;
+}
+
+    #secao-img, .img{
+        display: flex;
+        flex-direction: column-reverse;
+}
+
+    input, select {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+}
+
+    .lista{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 50px;
+}
+
+    .nome{
+        margin-left: 111px;
+        font-size: 12px;
+}
+
 }
